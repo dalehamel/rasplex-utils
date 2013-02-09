@@ -1,0 +1,15 @@
+/mnt/*
+/tmp/*
+/proc/*
+/sys/*
+/dev/**
+/etc/mtab
+/etc/ssh/ssh_host_*
+/usr/src/*
+/usr/portage/*
+/opt/vc/src/*
+/root/plex-home-theater
+/rasplex-stage4.tar.bz2
+/stage4.excl
+/make_stage4.sh  
+/enter_chroot.sh

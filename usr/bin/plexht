@@ -1,0 +1,3 @@
+export LD_LIBRARY_PATH="/opt/vc/lib;/usr/local/lib"
+export XBMC_HOME=/usr/local/share/XBMC
+/usr/local/bin/plexhometheater

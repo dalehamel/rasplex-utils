@@ -1,0 +1,157 @@
+﻿06:35:48 T:3045810176  NOTICE: -----------------------------------------------------------------------
+06:35:48 T:3045810176  NOTICE: Starting Plex Home Theater (0.9.9.3-20130208-df0f4773), Platform: Linux (Gentoo Base System release 2.1, 3.6.11+ armv6l). Built on Feb  8 2013
+06:35:48 T:3045810176  NOTICE: special://xbmc/ is mapped to: /usr/local/share/XBMC
+06:35:48 T:3045810176  NOTICE: special://xbmcbin/ is mapped to: /usr/local/bin
+06:35:48 T:3045810176  NOTICE: special://masterprofile/ is mapped to: /root/.plexht/userdata
+06:35:48 T:3045810176  NOTICE: special://home/ is mapped to: /root/.plexht
+06:35:48 T:3045810176  NOTICE: special://temp/ is mapped to: /root/.plexht/temp
+06:35:48 T:3045810176  NOTICE: The executable running is: /usr/local/bin/plexhometheater
+06:35:48 T:3045810176  NOTICE: Local hostname: rasplex
+06:35:48 T:3045810176  NOTICE: Log File is located: /root/.plexht/temp/xbmc.log
+06:35:48 T:3045810176  NOTICE: -----------------------------------------------------------------------
+06:35:48 T:3045810176  NOTICE: load settings...
+06:35:48 T:3045810176  NOTICE: special://profile/ is mapped to: special://masterprofile/
+06:35:48 T:3045810176  NOTICE: loading special://masterprofile/guisettings.xml
+06:35:48 T:3045810176   ERROR: special://masterprofile/guisettings.xml, Line 0
+                                            Failed to open file
+06:35:48 T:3045810176   ERROR: Unable to load special://masterprofile/guisettings.xml, creating new special://masterprofile/guisettings.xml with default values
+06:35:48 T:3045810176   ERROR: DeleteFile - cant delete file </root/.plexht/userdata/guisettings.xml>. trying lower case </root/.plexht/userdata/guisettings.xml>
+06:35:49 T:3045810176  NOTICE: Getting hardware information now...
+06:35:49 T:3045810176  NOTICE: Loading player core factory settings from special://xbmc/system/playercorefactory.xml.
+06:35:49 T:3045810176  NOTICE: Loaded playercorefactory configuration
+06:35:49 T:3045810176  NOTICE: Loading player core factory settings from special://masterprofile/playercorefactory.xml.
+06:35:49 T:3045810176  NOTICE: special://masterprofile/playercorefactory.xml does not exist. Skipping.
+06:35:49 T:3045810176  NOTICE: No settings file to load (special://xbmc/system/advancedsettings.xml)
+06:35:49 T:3045810176  NOTICE: No settings file to load (special://masterprofile/advancedsettings.xml)
+06:35:49 T:3045810176  NOTICE: Default DVD Player: dvdplayer
+06:35:49 T:3045810176  NOTICE: Default Video Player: dvdplayer
+06:35:49 T:3045810176  NOTICE: Default Audio Player: paplayer
+06:35:49 T:3045810176  NOTICE: Disabled debug logging due to GUI setting. Level 0.
+06:35:49 T:3045810176  NOTICE: Log level changed to 0
+06:35:49 T:3045810176  NOTICE: Loading media sources from special://masterprofile/sources.xml
+06:35:49 T:3045810176   ERROR: Error: Requested setting (audiooutput.guisoundmode) was not found.  It must be case-sensitive
+06:35:50 T:3033527392  NOTICE: Thread AutoUpdateThread start, auto delete: false
+06:35:50 T:3014653024   ERROR: NetworkService: Couldn't join multicast group: set_option: No such device
+06:35:51 T:2997875808   ERROR: Previous line repeats 2 times.
+06:35:51 T:2997875808  NOTICE: Thread XBMC Peripherals start, auto delete: false
+06:35:51 T:3045810176  NOTICE: Raspberry PI firmware version: Jan 30 2013 12:22:28 
+                                            Copyright (c) 2012 Broadcom
+                                            version 366105 (release)
+06:35:51 T:3045810176  NOTICE: Setup SDL
+06:35:51 T:3045810176  NOTICE: InitWindowSystem: Using EGL Implementation: raspberrypi
+06:35:51 T:3045810176  NOTICE: Found resolution 640 x 480 for display 0 with 640 x 480 @ 60.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 720 x 480 for display 0 with 720 x 480 @ 60.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 1280 x 720 for display 0 with 1280 x 720 @ 60.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 720 x 576 for display 0 with 720 x 576 @ 50.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 1280 x 720 for display 0 with 1280 x 720 @ 50.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 640 x 480 for display 0 with 640 x 480 @ 72.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 640 x 480 for display 0 with 640 x 480 @ 75.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 800 x 600 for display 0 with 800 x 600 @ 56.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 800 x 600 for display 0 with 800 x 600 @ 60.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 800 x 600 for display 0 with 800 x 600 @ 72.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 800 x 600 for display 0 with 800 x 600 @ 75.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 960 x 720 for display 0 with 1024 x 768 @ 60.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 960 x 720 for display 0 with 1024 x 768 @ 70.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 960 x 720 for display 0 with 1024 x 768 @ 75.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 960 x 720 for display 0 with 1152 x 864 @ 75.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 900 x 720 for display 0 with 1280 x 1024 @ 60.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found resolution 900 x 720 for display 0 with 1280 x 1024 @ 75.000000 Hz
+06:35:51 T:3045810176  NOTICE: Found (900x720@60.000000) at 31, setting to RES_DESKTOP at 16
+06:35:51 T:3045810176  NOTICE: Checking resolution 16
+06:35:51 T:3045810176  NOTICE: GL_VENDOR = Broadcom
+06:35:51 T:3045810176  NOTICE: GL_RENDERER = VideoCore IV HW
+06:35:51 T:3045810176  NOTICE: GL_VERSION = OpenGL ES 2.0
+06:35:51 T:3045810176  NOTICE: GL_SHADING_LANGUAGE_VERSION = OpenGL ES GLSL ES 1.00
+06:35:51 T:3045810176  NOTICE: GL_EXTENSIONS = GL_OES_compressed_ETC1_RGB8_texture GL_OES_compressed_paletted_texture GL_OES_texture_npot GL_OES_depth24 GL_OES_vertex_half_float GL_OES_EGL_image GL_OES_EGL_image_external GL_EXT_discard_framebuffer GL_OES_rgb8_rgba8 GL_OES_depth32 GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_APPLE_rgb_422 GL_EXT_debug_marker
+06:35:53 T:3045810176  NOTICE: Running database version Addons15
+06:35:55 T:3045810176   ERROR: PVR - CreateTables - failed to get add-ons from the add-on manager
+06:35:55 T:3045810176  NOTICE: initializing playlistplayer
+06:35:55 T:3045810176  NOTICE: DONE initializing playlistplayer
+06:35:55 T:2933539936  NOTICE: Thread Aux Fan Load Thread start, auto delete: false
+06:35:55 T:2916762720  NOTICE: Thread Jobworker start, auto delete: true
+06:35:55 T:2916762720  NOTICE: PlexDirectory::GetDirectory(http://127.0.0.1:32400/library/arts)
+06:35:55 T:2916762720 WARNING: FillBuffer: curl failed with code 7
+06:35:55 T:2916762720   ERROR: CCurlFile::CReadState::Open, didn't get any data from stream.
+06:35:55 T:3045810176   ERROR: Couldn't load font name: LargeSearchFont(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: MediumSearchFont(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: SearchResult(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: SearchResultSmaller(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: SearchResultSmall(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: LargeTitleFont(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: MediaPreviewYear(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: MediaPreviewSummary(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: MediaPreviewDetailsHeader(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: EpisodeTitles(Arial), trying to substitute arial.ttf
+06:35:55 T:3045810176   ERROR: Couldn't load font name: NPArtistFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: NPTitleFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: NPAlbumFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: NPNextFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: XLargeDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: XLargeDefaultCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: LargeDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: LargeDefaultCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumAltDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumDefaultCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumSmallDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumSmallAltDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumSmallDefaultCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: DefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: AltDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: DefaultCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: SmallDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: SmallDefaultCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: SmallerDefaultFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: SmallerDefaultCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: XXXLargeTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: XXXXLargeTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: XLargeTitleFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: XLargeTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: LargeTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumLargeTitleFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: HomeScreenUnselectedItems(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumLargeTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: TitleFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: TitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumTitleFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: RssFeedFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumSmallTitleFont(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumSmallTitleFont2(Arial), trying to substitute arial.ttf
+06:35:56 T:3045810176   ERROR: Couldn't load font name: MediumSmallTitleFont3(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: MediumSmallTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: SmallTitleFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: SmallTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: SmallTinyTitleFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: SmallTinyTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: TinyTitleFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: TinyTitleCapsFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: HomeMenuFocusFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: HomeMenuInfoFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: HomeSubMenuFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: VideoDetailXFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: VideoDetailXCapsFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: KeyboardFocusFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: KeyboardFocusCapsFont(Arial), trying to substitute arial.ttf
+06:35:57 T:3045810176   ERROR: Couldn't load font name: font13(Arial), trying to substitute arial.ttf
+06:35:59 T:3045810176   ERROR: unable to load:/usr/local/share/XBMC/addons/skin.mediastream/720p/DialogExtendedProgressBar.xml, Line 0
+                                            Failed to open file
+06:35:59 T:3045810176   ERROR: unable to load:/usr/local/share/XBMC/addons/skin.mediastream/720p/DialogFilters.xml, Line 0
+                                            Failed to open file
+06:35:59 T:3045810176 WARNING: CreateFile, successfuly opened </usr/local/share/XBMC/addons/skin.mediastream/Sounds/sounds.xml> instead of </usr/local/share/XBMC/addons/skin.mediastream/sounds/sounds.xml>
+06:35:59 T:3045810176  NOTICE: initialize done
+06:35:59 T:3045810176  NOTICE: Running the application...
+06:36:00 T:3033527392 WARNING: FillBuffer: curl failed with code 6
+06:36:00 T:3033527392   ERROR: CCurlFile::CReadState::Open, didn't get any data from stream.
+06:36:01 T:2916762720  NOTICE: PlexDirectory::GetDirectory(http://127.0.0.1:32400/library/arts)
+06:36:01 T:2916762720 WARNING: FillBuffer: curl failed with code 7
+06:36:01 T:2916762720   ERROR: CCurlFile::CReadState::Open, didn't get any data from stream.
+06:36:01 T:3045810176  NOTICE: Webserver: Starting...
+06:36:01 T:3045810176  NOTICE: WebServer: Started the webserver
+06:36:01 T:3045810176  NOTICE: ES: Starting event server
+06:36:01 T:3045810176  NOTICE: starting zeroconf publishing
+06:36:01 T:3045810176 WARNING: CreateFile, successfuly opened </usr/local/share/XBMC/addons/skin.mediastream/720p/DialogOk.xml> instead of </usr/local/share/XBMC/addons/skin.mediastream/720p/DialogOK.xml>
+06:36:01 T:2780021856  NOTICE: Thread CEventServer start, auto delete: false
+06:36:01 T:2780021856  NOTICE: ES: Starting UDP Event server on 0.0.0.0:9778
+06:36:01 T:2771633248  NOTICE: Thread CTCPServer start, auto delete: false
+06:36:01 T:2780021856  NOTICE: UDP: Listening on port 9778

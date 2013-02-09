@@ -1,0 +1,25 @@
+#!/bin/bash
+
+
+if [ ! -f /var/db/growroot ];then
+	
+	touch /var/db/growroot
+	echo "Growing root to available space"
+	PART_START=$(parted /dev/mmcblk0 -ms unit s p | grep "^3" | cut -f 2 -d:)
+
+
+fdisk /dev/mmcblk0 <<EOF
+p
+d
+3
+n
+p
+3
+$PART_START
+
+p
+w
+EOF
+
+	/sbin/shutdown -r now
+fi

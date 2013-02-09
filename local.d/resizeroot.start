@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ ! -f /var/db/grewroot ] && [ -f /var/db/growroot ];then
+
+	echo "Resizing root partition"
+	resize2fs /dev/mmcblk0p3
+	touch /var/db/grewroot 
+
+fi

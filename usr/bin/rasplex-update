@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+
+# This script is only for updated the rasplex-utils, and then calling the bootstrapped update (which is included in rasplex utils)
+# This way, we can change how the update procedure works without having to update twice
+
+echo "Note: updating for the first time might take a while to regenerate portage profiles"
+echo "Updating rasplex... please be patient : )"
+
+emerge -g rasplex-utils
+
+/usr/bin/rasplex-update-bootstrapped
+

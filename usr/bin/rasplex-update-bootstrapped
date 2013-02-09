@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# This script is where all of the actual update logic should go.
+
+echo "Bootstrapping of update complete."
+
+emerge -g plexht

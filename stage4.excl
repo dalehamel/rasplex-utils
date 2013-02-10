@@ -9,6 +9,7 @@
 /usr/portage/*
 /opt/vc/src/*
 /root/plex-home-theater
+/root/rasplex-utils
 /rasplex-stage4.tar.bz2
 /stage4.excl
 /make_stage4.sh  

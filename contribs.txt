@@ -4,6 +4,8 @@ Dale Hamel - Lead developer, builder, hoster, creator of rasplex (stubborn Canad
 Anil Daoud - Anil (Lead of Raspbian port)
 Marc Massey - ElMassman (god of the GUI)
 Lionel CHAZALLON - LongChair (Lead tester, first user to join the channel)
+Jay Smith - jsmith79 (stellar tester, helpful hacker, front line soldier)
+
 
 Special thanks to:
 

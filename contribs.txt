@@ -2,6 +2,7 @@ Rasplex hackers:
 
 Dale Hamel - Lead developer, builder, hoster, creator of rasplex (stubborn Canadian)
 Anil Daoud - Anil (Lead of Raspbian port)
+Robert Buhren - weelkin (lead of OpenELEC port)
 Marc Massey - ElMassman (god of the GUI)
 Lionel CHAZALLON - LongChair (Lead tester, first user to join the channel)
 Jay Smith - jsmith79 (stellar tester, helpful hacker, front line soldier)

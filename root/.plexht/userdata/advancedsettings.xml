@@ -7,6 +7,7 @@
 </network>
 <fanartheight>560</fanartheight>
 <thumbsize>256</thumbsize>
+<loglevel hide="false">2</loglevel>
 
 
  <video>

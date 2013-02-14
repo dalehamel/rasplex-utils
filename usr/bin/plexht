@@ -2,6 +2,6 @@
 
 export LD_LIBRARY_PATH="/opt/vc/lib;/usr/local/lib"
 export XBMC_HOME=/usr/local/share/XBMC
-CPUPROFILE=/root/pht.profile LD_PRELOAD=/usr/lib/libprofiler.so  /usr/local/bin/plexhometheater >| /dev/null 
+#CPUPROFILE=/root/pht.profile LD_PRELOAD=/usr/lib/libprofiler.so  /usr/local/bin/plexhometheater >| /dev/null 
 
-#/usr/local/bin/plexhometheater
+/usr/local/bin/plexhometheater

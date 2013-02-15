@@ -198,7 +198,7 @@
         <timezonecountry></timezonecountry>
     </locale>
     <lookandfeel>
-        <enableglobalslideshow>true</enableglobalslideshow>
+        <enableglobalslideshow>false</enableglobalslideshow>
         <enablerssfeeds>false</enablerssfeeds>
         <font>Default</font>
         <rssedit></rssedit>
